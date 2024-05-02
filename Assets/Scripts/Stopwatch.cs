@@ -54,7 +54,7 @@ public class Stopwatch : MonoBehaviour
         }
     }
 
-    private IEnumerator Countdown(float delay, int start = 0)
+    private IEnumerator Countdown(float delay)
     {
         var wait = new WaitForSeconds(delay);
 
